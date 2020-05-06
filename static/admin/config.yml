@@ -21,4 +21,6 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Servings", name: "servings", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: Steps, name: steps, widget: list, fields: [{label: "Step", name: "step", widget: "text"}, {label: "Title", name: "title", widget: "string"}]}
+      - {label: "Ingredients", name: "ingredients", widget: "list", fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string"}]}
+      - {label: "Ingredient Groups", name: "ingredientGroups", widget: "list", fields: [{label: "Group Title", name: "groupTitle", widget: "string"},{label: "Group Context", name: "groupContext", widget: "string"},{label: "Ingredients", name: "ingredients", widget: "list", fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string"}]}]}
+      - {label: "Steps:", name: "steps", widget: "list", fields: [{label: "Step", name: "step", widget: "text"}, {label: "Title", name: "title", widget: "string"}]}
