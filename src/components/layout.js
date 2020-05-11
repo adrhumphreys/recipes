@@ -10,8 +10,10 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
-import "./layout.css";
 import { Helmet } from "react-helmet/es/Helmet";
+
+const fontLink =
+  "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Merriweather:wght@900&display=swap";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,10 +29,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <link
-          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Merriweather:wght@900&display=swap"
-          rel="stylesheet"
-        />
+        <link href={fontLink} rel="stylesheet" />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
@@ -41,11 +40,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     </>
   );

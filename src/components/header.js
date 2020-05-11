@@ -17,35 +17,15 @@ const Header = ({ siteTitle }) => {
     `
   );
 
-  const linkStyle = {
-    fontFamily: "'IBM Plex Mono', monospace",
-    fontWeight: 500,
-    color: "#424141",
-    textDecoration: "none",
-    fontSize: "18px"
-  };
-
   return (
-    <header
-      style={{
-        borderBottom: "2px solid #393E46"
-      }}
-    >
-      <div
-        style={{
-          margin: "0 auto",
-          maxWidth: 960,
-          padding: "1.45rem 1.0875rem",
-          display: "flex",
-          justifyContent: "space-between"
-        }}
-      >
-        <Link style={{ ...linkStyle, fontWeight: 700 }} to="/">
+    <header>
+      <div className="header">
+        <Link className="link" to="/">
           All recipes
         </Link>
         {tags.map(tag => (
           <Link
-            style={linkStyle}
+            className="link"
             to={`/tags/${tag.tag.toLowerCase()}`}
             key={tag.tag}
           >
