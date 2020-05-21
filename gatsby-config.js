@@ -28,8 +28,8 @@ module.exports = {
         name: `Recipes`,
         short_name: `Recipes`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#fffbf3`,
+        theme_color: `#fffbf3`,
         display: `minimal-ui`,
         icon: `static/images/gatsby-icon.png` // This path is relative to the root of the site.
       }
@@ -37,7 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        // precachePages: [`/about-us/`, `/projects/*`],
+        precachePages: [`/*`]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
