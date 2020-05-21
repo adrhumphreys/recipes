@@ -8,9 +8,13 @@ const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext;
   const { edges } = data.allMdx;
 
-  const recipeList = edges.map(({ node: { frontmatter: { title, slug } } }) => (
-    <RecipeTile title={title} slug={slug} key={slug} />
-  ));
+  const recipeList = edges.map(
+    ({
+      node: {
+        frontmatter: { title, slug, image }
+      }
+    }) => <RecipeTile title={title} slug={slug} key={slug} image={image} />
+  );
 
   return (
     <Layout>
@@ -31,6 +35,7 @@ export const pageQuery = graphql`
           frontmatter {
             slug
             title
+            image
           }
         }
       }

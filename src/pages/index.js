@@ -18,6 +18,7 @@ const IndexPage = () => {
               frontmatter {
                 slug
                 title
+                image
               }
             }
           }
@@ -29,9 +30,9 @@ const IndexPage = () => {
   const recipeList = recipes.map(
     ({
       node: {
-        frontmatter: { title, slug }
+        frontmatter: { title, slug, image }
       }
-    }) => <RecipeTile title={title} slug={slug} key={slug} />
+    }) => <RecipeTile title={title} slug={slug} key={slug} image={image} />
   );
 
   return (

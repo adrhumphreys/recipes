@@ -34,13 +34,12 @@ html, body {
 
 main {
     margin: 0 auto;
-    padding: 0 1.25rem;
+    padding: 0 20px;
     max-width: 1080px;
 }
 
 header {
     border-bottom: 2px solid var(--dark-gray);
-    padding: 1.45rem 1.25rem;
 }
 
 .header {
@@ -48,6 +47,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1080px;
+    padding: 23px 20px;
 }
 
 .link {
@@ -89,14 +89,14 @@ h2 {
 .subtitle {
     color: var(--light-gray);
     font-weight: 500;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
     text-align: center;
 }
 
 .ingredients {
     font-size: 1.375rem;
     font-weight: 500;
-    margin-bottom: 3.75rem;
+    margin-bottom: 60px;
 }
 
 .ingredients span {
@@ -123,6 +123,8 @@ h2 {
 }
 
 .recipe-tile {
+    background-position: center 30%;
+    background-repeat: no-repeat;
     border: 2px solid var(--dark-gray);
     color: var(--dark-gray);
     display: flex;
@@ -132,15 +134,27 @@ h2 {
     text-decoration: none;
 }
 
-.recipe-tile::before {
-    content: "";
-    padding-bottom: 100%;
-    display: block;
+.recipe-tile img {
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 1079px) {
+    .recipe-tile {
+        background: none !important;
+        flex-direction: column;
+    }
 }
 
 .recipe-tile p {
     align-self: flex-end;
     margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .recipe-tiles {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (min-width: 1024px) {
@@ -172,5 +186,15 @@ h2 {
     .recipe-tiles {
         grid-template-columns: repeat(4, 1fr);
         margin-bottom: 70px;
+    }
+
+    .recipe-tile img {
+        display: none;
+    }
+
+    .recipe-tile::before {
+        content: "";
+        padding-bottom: 100%;
+        display: block;
     }
 }
