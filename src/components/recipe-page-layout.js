@@ -1,12 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { Link } from "gatsby";
 import Layout from "./layout";
 import Ingredient from "./ingredient";
 import Step from "./step";
 import IngredientGroup from "./ingredient-group";
-
-const shortcodes = { Link };
+import SEO from "./seo";
 
 export default function PageTemplate({ data: { mdx } }) {
   const {
@@ -15,27 +13,16 @@ export default function PageTemplate({ data: { mdx } }) {
 
   return (
     <Layout>
-      <h1
-        style={{
-          fontFamily: "Merriweather-Black",
-          fontSize: "50px",
-          color: "#393E46",
-          letterSpacing: 0,
-          textAlign: "center",
-          lineHeight: "56px",
-          margin: "25px 20px 10px"
-        }}
-      >
-        {title}
-      </h1>
-      <p>
+      <SEO title={`${title} - Recipes`} />
+      <h1>{title}</h1>
+      <p className="subtitle">
         {tags.map(tag => (
           <span key={tag}>{tag} // </span>
         ))}
         <strong>{servings} servings</strong>
       </p>
-      <div>
-        <div>
+      <div className="recipe-contents">
+        <div className="ingredients">
           {ingredients &&
             ingredients.map((ingredient, pos) => (
               <Ingredient {...ingredient} key={pos} />
@@ -45,7 +32,7 @@ export default function PageTemplate({ data: { mdx } }) {
               <IngredientGroup {...ingredientGroup} key={pos} />
             ))}
         </div>
-        <div>
+        <div className="steps">
           {steps.map((s, pos) => (
             <Step {...s} key={pos} />
           ))}

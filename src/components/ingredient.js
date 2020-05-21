@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 export default ({ ingredient, context }) => (
-  <div className="ingredient">
+  <div>
     <p>
       {ingredient} <span>{context}</span>
     </p>
   </div>
-)
+);

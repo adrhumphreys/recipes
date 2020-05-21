@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
 import Layout from "../components/layout";
 import Image from "../components/image";
@@ -37,8 +37,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Recipes" />
-      <h1>all recipes</h1>
-      {recipeList}
+      <h1 className="list">all recipes</h1>
+      <div className="recipe-tiles">{recipeList}</div>
     </Layout>
   );
 };
