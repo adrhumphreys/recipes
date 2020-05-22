@@ -30,14 +30,14 @@ module.exports = {
         start_url: `/`,
         background_color: `#fffbf3`,
         theme_color: `#fffbf3`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `static/images/icon.svg` // This path is relative to the root of the site.
       }
     },
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/*`]
+        precachePages: [`**/*`]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
