@@ -28,9 +28,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Helmet>
-        <link href={fontLink} rel="stylesheet" />
-      </Helmet>
+      <link href={fontLink} rel="stylesheet" />
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
     </>
