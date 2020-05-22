@@ -18,7 +18,7 @@ const Tags = ({ pageContext, data }) => {
 
   return (
     <Layout>
-      <SEO title={`${tag} - Recipes`} />
+      <SEO title={tag} />
       <h1 className="list">{tag}</h1>
       <div className="recipe-tiles">{recipeList}</div>
     </Layout>

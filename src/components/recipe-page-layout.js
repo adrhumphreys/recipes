@@ -13,7 +13,7 @@ export default function PageTemplate({ data: { mdx } }) {
 
   return (
     <Layout>
-      <SEO title={`${title} - Recipes`} />
+      <SEO title={title} />
       <h1>{title}</h1>
       <p className="subtitle">
         {tags.map(tag => (
