@@ -3,7 +3,7 @@ import Ingredient from "./ingredient";
 
 export default ({ groupTitle, groupContext, ingredients }) => (
   <div className="ingredientGroup">
-    <p>
+    <p className="ingredientGroupTitle">
       {groupTitle} {groupContext && <span>{groupContext}</span>}
     </p>
     {ingredients &&

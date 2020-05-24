@@ -14,6 +14,7 @@ ingredientGroups:
       - ingredient: 2 heaped teaspoons minced garlic
         context: (jarred)
       - ingredient: 1 batch tofu 'mince'
+        link: tofu-mince
       - ingredient: 1 can (~400g) tomatoes
       - ingredient: 1 tablespoon tomato paste
       - ingredient: 1/2 teaspoon dried basil

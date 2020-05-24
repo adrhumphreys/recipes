@@ -7,6 +7,7 @@ tags:
 image: /images/icon.svg
 ingredients:
   - ingredient: 1/2 batch of refried beans
+    link: refried-beans
   - ingredient: 3 small tortillas
     context: (Size 8 inch/22cm or ~40g per wrap)
   - ingredient: Grated cheese

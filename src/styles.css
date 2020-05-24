@@ -1,12 +1,12 @@
 :root {
     --font-family-merriweather: 'Merriweather', serif;
     --font-family-ibm-plex-mono: 'IBM Plex Mono', monospace;
-    --dark-gray: #393E46;
+    --dark-gray: #424141;
     --light-gray: #717578;
     --main-background-color: #FFFBF3;
     --heading-font-color: var(--dark-gray);
     --heading-font-family: var(--font-family-merriweather);
-    --text-font-color: #424141;
+    --text-font-color: var(--dark-gray);
     --text-font-family: var(--font-family-ibm-plex-mono);
 }
 
@@ -30,6 +30,7 @@ html, body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     word-break: break-word;
+    line-height: 1.5;
 }
 
 main {
@@ -47,7 +48,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1080px;
-    padding: 23px 20px;
+    padding: 21px 20px;
 }
 
 .link {
@@ -58,7 +59,9 @@ header {
     transition: color 150ms;
 }
 
-.link:hover {
+.link:hover,
+.link:active,
+.link:focus {
     color: var(--light-gray);
 }
 
@@ -73,7 +76,7 @@ h1 {
     letter-spacing: 0;
     text-align: center;
     text-transform: lowercase;
-    margin: 24px 20px 10px;
+    margin: 24px 20px 0px;
 }
 
 h1.list {
@@ -81,9 +84,13 @@ h1.list {
 }
 
 h2 {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     font-family: var(--text-font-family);
-    margin-bottom: 0;
+    margin: 0;
+}
+
+.ingredientGroupTitle {
+    font-weight: 700;
 }
 
 .subtitle {
@@ -94,9 +101,20 @@ h2 {
 }
 
 .ingredients {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 60px;
+}
+
+.ingredients a {
+    color: var(--text-font-color);
+    transition: color 150ms;
+}
+
+.ingredients a:hover,
+.ingredients a:active,
+.ingredients a:focus {
+    color: var(--light-gray);
 }
 
 .ingredients span {
@@ -111,9 +129,13 @@ h2 {
 }
 
 .steps {
-    font-size: 1.375rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    /*line-height: 2rem;*/
 }
+
+.recipe-contents {
+        margin-bottom: 70px;
+    }
 
 .recipe-tiles {
     display: grid;
@@ -139,16 +161,17 @@ h2 {
     width: 100%;
 }
 
-@media (max-width: 1079px) {
-    .recipe-tile {
-        background: none !important;
-        flex-direction: column;
-    }
-}
 
 .recipe-tile p {
     align-self: flex-end;
     margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+    .recipe-tile {
+        background: none !important;
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 768px) {
@@ -159,7 +182,7 @@ h2 {
 
 @media (min-width: 1024px) {
     h1 {
-        margin-top: 80px;
+        margin-top: 70px;
     }
 
     h1.list {
@@ -175,8 +198,8 @@ h2 {
     }
 
     .ingredients {
-        min-width: 340px;
-        margin-right: 90px;
+        width: 400px;
+        margin-right: 70px;
     }
 
     .steps {
