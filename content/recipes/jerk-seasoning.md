@@ -3,7 +3,7 @@ title: jerk seasoning
 slug: jerk-seasoning
 servings: " "
 tags:
-  - parts
+  - Parts
 image: /images/icon.svg
 ingredients:
   - ingredient: 2 teaspoons dried thyme
