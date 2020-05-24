@@ -1,5 +1,5 @@
 ---
-title: Tofu 'mince'
+title: tofu 'mince'
 slug: tofu-mince
 servings: "4"
 tags:
