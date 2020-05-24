@@ -27,7 +27,7 @@ steps:
       minutes. Then, uncover and fluff the quinoa with a fork. Gently stir in
       the black beans. Allow to sit for a few minutes covered to heat up the
       beans.
-    title: Cheese sauce
+    title: ""
   - step: |
       Uses: Have with corn chips for Nachos
 ---
