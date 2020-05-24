@@ -1,5 +1,5 @@
 ---
-title: Pizza base dough
+title: pizza base dough
 slug: pizza-base-dough
 servings: 6-8
 tags:
