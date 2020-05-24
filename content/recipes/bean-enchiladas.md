@@ -13,6 +13,7 @@ ingredients:
     link: ""
   - ingredient: Grated cheese
     context: (For sprinkling on top)
+  - ingredient: " "
 ingredientGroups:
   - groupTitle: Enchilada Sauce
     ingredients:
@@ -28,6 +29,7 @@ ingredientGroups:
         context: "(optional but recommended) "
       - ingredient: 1 teaspoon apple cider vinegar
         context: (Or another vinegar type or lemon juice)
+      - ingredient: " "
   - groupTitle: Mexican spice mix
     ingredients:
       - ingredient: Scant 1/2 tablespoon ground paprika
