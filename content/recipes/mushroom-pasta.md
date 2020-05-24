@@ -1,21 +1,20 @@
 ---
 title: mushroom pasta
 slug: mushroom-pasta
-servings: 3-4
+servings: 4-6
 tags:
   - Mains
-image: /images/mushroom-pasta.svg
+image: /images/icon.svg
 ingredients:
-  - ingredient: ¼ - ½ tsp dried chili flakes
+  - ingredient: Splash oil
+  - ingredient: "¼ - ½ tsp dried chili flakes "
   - ingredient: 1 tsp ground paprika
-  - ingredient: 400g mushrooms
-    context: (sliced)
+  - ingredient: 400g mushrooms, sliced
   - ingredient: 2 cups vegetable broth
-  - ingredient: 400ml regular soy milk
+  - ingredient: 400 ml regular soy milk
   - ingredient: 375g spiral shaped pasta
-    context: (Can use different pasta shape and/or ½ pulse pasta & ½ regular)
+    context: Try different shapes and/or ½ pulse pasta & ½ regular)
   - ingredient: 2 tbsp nutritional yeast
-    context: ""
   - ingredient: 1 tbsp soy sauce
   - ingredient: 100g baby spinach leaves
 steps:
