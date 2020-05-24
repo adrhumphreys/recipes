@@ -3,7 +3,7 @@ title: bean enchiladas
 slug: bean-enchiladas
 servings: "4"
 tags:
-  - mains
+  - Mains
 image: /images/icon.svg
 ingredients:
   - ingredient: ½ batch of bean mix
