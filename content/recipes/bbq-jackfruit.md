@@ -30,6 +30,6 @@ steps:
       shredded texture. If you find it a bit wet, just cook a little longer. If
       you find it a little dry, just add a splash water.
   - step: Add some squirts of bbq sauce until it is flavoured to your liking.
-  - step: " "
-    title: "Uses: In wraps, burgers, nachos"
+  - step: " Uses: In wraps, burgers, nachos"
+    title: ""
 ---
