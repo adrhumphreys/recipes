@@ -53,6 +53,7 @@ export const pageQuery = graphql`
         ingredients {
           ingredient
           context
+          link
         }
         steps {
           step
@@ -64,6 +65,7 @@ export const pageQuery = graphql`
           ingredients {
             ingredient
             context
+            link
           }
         }
       }

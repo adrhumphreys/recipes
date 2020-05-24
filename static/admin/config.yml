@@ -21,7 +21,7 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Servings", name: "servings", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Ingredients", name: "ingredients", widget: "list", required: false, fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string", required: false}]}
-      - {label: "Ingredient Groups", name: "ingredientGroups", widget: "list", required: false, fields: [{label: "Group Title", name: "groupTitle", widget: "string"},{label: "Group Context", name: "groupContext", widget: "string", required: false},{label: "Ingredients", name: "ingredients", widget: "list", required: false, fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string", required: false,}]}]}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Ingredients", name: "ingredients", widget: "list", required: false, fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string", required: false}, {label: "Link", name: "link", widget: "string", required: false}]}
+      - {label: "Ingredient Groups", name: "ingredientGroups", widget: "list", required: false, fields: [{label: "Group Title", name: "groupTitle", widget: "string"},{label: "Group Context", name: "groupContext", widget: "string", required: false},{label: "Ingredients", name: "ingredients", widget: "list", required: false, fields: [{label: "Ingredient", name: "ingredient", widget: "string"}, {label: "Context", name: "context", widget: "string", required: false,}, {label: "Link", name: "link", widget: "string", required: false}]}]}
       - {label: "Steps:", name: "steps", widget: "list", fields: [{label: "Step", name: "step", widget: "text"}, {label: "Title", name: "title", widget: "string", required: false}]}
