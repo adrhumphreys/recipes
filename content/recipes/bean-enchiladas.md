@@ -57,4 +57,24 @@ steps:
 
 
       Next assemble the enchiladas!
+  - step: >-
+      Lightly grease a baking dish (20cm x 30cm or 2 square dishes) with oil.
+
+      Pour a quarter cup or so enchilada sauce into your prepared pan and tilt it from side to side until the bottom of the pan is evenly coated.
+    title: To assemble the enchiladas
+  - step: "To assemble your first enchilada, spread ½ cup filling mixture down the
+      middle of a tortilla, then snugly wrap the left side over and then the
+      right, to make a wrap. "
+  - step: Place it seam side down at one end of your pan. Repeat with remaining
+      tortillas and filling. (There should be enough filling for 6 tortillas,
+      but there might be a little bit left over which you can either add to the
+      6th tortilla or make a 7th with it).
+  - step: "Drizzle the enchilada sauce evenly over the enchiladas, leaving the tips
+      of the enchiladas bare. "
+  - step: >
+      Sprinkle grated cheese evenly over the enchiladas. Bake, uncovered, on the
+      middle rack for 20 minutes. 
+  - step: If the cheese on top isn’t golden enough for your liking, carefully
+      transfer the enchiladas to the upper rack of the oven and bake for an
+      additional 3 to 6 minutes, until sufficiently golden and bubbly.
 ---
