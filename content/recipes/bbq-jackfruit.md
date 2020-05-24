@@ -6,9 +6,8 @@ tags:
   - Parts
 image: /images/icon.svg
 ingredients:
-  - ingredient: 2 big cans (~565g) green jackfruit in water or brine, drained,
-      rinsed, and chopped
-    context: (see instructions)
+  - ingredient: 2 big cans (~565g) green jackfruit
+    context: (drained, rinsed and chopped)
   - ingredient: Splash of oil
   - ingredient: 2 heaped teaspoons minced garlic
     context: (Jarred)
