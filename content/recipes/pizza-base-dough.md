@@ -4,6 +4,7 @@ slug: pizza-base-dough
 servings: 6-8
 tags:
   - Parts
+  - Pizza
 image: /images/icon.svg
 ingredients:
   - ingredient: 2 cups plain flour
