@@ -1,7 +1,7 @@
 ---
 title: zucchini feta pizza
 slug: zucchini-feta-pizza
-servings: 4-6
+servings: 6-8
 tags:
   - Pizza
   - Mains
