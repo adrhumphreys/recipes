@@ -1,6 +1,6 @@
 import { Link, useStaticQuery, graphql } from "gatsby";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 
 const Header = ({ siteTitle }) => {
   const {
@@ -17,12 +17,19 @@ const Header = ({ siteTitle }) => {
     `
   );
 
+  const [opened, setOpened] = useState(false);
+
+  const headerClassNames = "header " + (opened ? "opened" : "closed");
+
   return (
     <header>
-      <div className="header">
+      <div className={headerClassNames}>
         <Link className="link" to="/">
           All recipes
         </Link>
+        <div className="menu-button-container">
+          <button className="menu-button" onClick={() => setOpened(!opened)}>{opened ? 'Hide menu' : 'Show menu'}</button>
+        </div>
         {tags.map(tag => (
           <Link
             className="link"
