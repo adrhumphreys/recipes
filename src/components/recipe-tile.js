@@ -6,9 +6,6 @@ const RecipeTile = ({ title, slug, image }) => {
     <Link
       to={`/${slug}`}
       className="recipe-tile"
-      style={{
-        backgroundImage: `url(${image})`
-      }}
     >
       {image && <img src={image} alt={title} />}
       <p>{title}</p>
