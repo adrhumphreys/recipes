@@ -4,7 +4,7 @@ slug: tuna-pasta-bake
 servings: 4-6
 tags:
   - Mains
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 200g spiral pasta
   - ingredient: 1 can (~400g) chickpeas, drained and rinsed
