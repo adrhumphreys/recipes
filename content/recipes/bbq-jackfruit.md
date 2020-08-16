@@ -4,7 +4,7 @@ slug: bbq-jackfruit
 servings: 4-6
 tags:
   - Parts
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 2 big cans (~565g) green jackfruit
     context: (drained, rinsed and chopped)
