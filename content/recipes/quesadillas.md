@@ -4,7 +4,7 @@ slug: quesadillas
 servings: "2"
 tags:
   - Mains
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 1/2 batch of refried beans
     link: refried-beans
