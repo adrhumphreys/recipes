@@ -5,7 +5,7 @@ servings: "4"
 tags:
   - Mains
   - Parts
-image: /images/quinoa-and-black-beans.png
+image: /images/quinoa-and-black-beans.svg
 ingredients:
   - ingredient: 1/2 cup of quinoa, rinsed
   - ingredient: 1 cup water
