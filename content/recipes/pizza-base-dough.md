@@ -5,7 +5,7 @@ servings: 6-8
 tags:
   - Parts
   - Pizza
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 2 cups plain flour
   - ingredient: 1 teaspoon baking powder
