@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: "1 tablespoon olive oil "
   - ingredient: "1 medium white onion, peeled and diced "
