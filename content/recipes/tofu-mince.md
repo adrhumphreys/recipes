@@ -4,7 +4,7 @@ slug: tofu-mince
 servings: "4"
 tags:
   - Parts
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 300g block of firm tofu
   - ingredient: 1 tablespoon oil
