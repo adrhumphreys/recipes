@@ -4,7 +4,7 @@ slug: cornbread
 servings: "16"
 tags:
   - Baking
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: "3/4 cups + 1 tablespoon soy milk "
   - ingredient: " 1 teaspoon lemon juice or apple cider vinegar "
