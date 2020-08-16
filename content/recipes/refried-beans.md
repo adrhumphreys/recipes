@@ -4,7 +4,7 @@ slug: refried-beans
 servings: "4"
 tags:
   - Parts
-image: /images/icon.svg
+image: ""
 ingredients:
   - ingredient: 1 can (~400g) black beans (or other beans), drained and rinsed
   - ingredient: ¼ teaspoon salt
