@@ -4,7 +4,7 @@ slug: jerk-seasoning
 servings: " "
 tags:
   - Parts
-image: ""
+image: /images/jerk-seasoning.svg
 ingredients:
   - ingredient: 2 tsps dried thyme
   - ingredient: 2 tsps dried parsley
