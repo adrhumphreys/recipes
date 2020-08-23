@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: ""
+image: /images/soup.svg
 ingredients:
   - ingredient: "Splash of oil "
   - ingredient: "1 heaped teaspoon minced garlic "
