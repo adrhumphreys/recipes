@@ -4,7 +4,7 @@ slug: iron-slice
 servings: "16"
 tags:
   - Baking
-image: ""
+image: /images/iron-slice.svg
 ingredients:
   - ingredient: "3/4 cup whole rolled oats "
     context: "(chopped lightly in food processor) "
