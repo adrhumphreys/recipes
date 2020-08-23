@@ -4,7 +4,7 @@ slug: lasagne
 servings: 4-6
 tags:
   - Mains
-image: ""
+image: /images/lasagne.svg
 ingredientGroups:
   - groupTitle: Tomato tofu sauce
     ingredients:
