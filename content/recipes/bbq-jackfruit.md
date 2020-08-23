@@ -1,10 +1,11 @@
 ---
-title: bbq jackfruit
-slug: bbq-jackfruit
+title: bbq jackfruit burgers
+slug: bbq-jackfruit-burgers
 servings: 4-6
 tags:
   - Parts
-image: ""
+  - Mains
+image: /images/burger.svg
 ingredients:
   - ingredient: 2 big cans (~565g) green jackfruit
     context: (drained, rinsed and chopped)
