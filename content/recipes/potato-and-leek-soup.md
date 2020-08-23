@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: ""
+image: /images/leek-soup.svg
 ingredients:
   - ingredient: "Butter, a generous amount (20g) to cook leeks in "
   - ingredient: "2 heaped teaspoons minced garlic "
