@@ -4,7 +4,7 @@ slug: mushroom-pasta
 servings: 4-6
 tags:
   - Mains
-image: ""
+image: /images/mushroom-pasta.svg
 ingredients:
   - ingredient: Splash oil
   - ingredient: "¼ - ½ tsp dried chili flakes "
