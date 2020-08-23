@@ -5,7 +5,7 @@ servings: 6-8
 tags:
   - Pizza
   - Mains
-image: /images/pizza.svg
+image: /images/chickpea-pizza.svg
 ingredients:
   - ingredient: 1 batch pizza base dough
     link: pizza-base-dough
