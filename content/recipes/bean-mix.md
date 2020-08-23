@@ -5,7 +5,7 @@ servings: 6-8
 tags:
   - Parts
   - Mains
-image: ""
+image: /images/beans.svg
 ingredients:
   - ingredient: "Splash of oil "
   - ingredient: 2 heaped teaspoons minced garlic
