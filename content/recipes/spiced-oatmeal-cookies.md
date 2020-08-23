@@ -4,7 +4,7 @@ slug: spiced-oatmeal-cookies
 servings: "24"
 tags:
   - Baking
-image: ""
+image: /images/cookies.svg
 ingredients:
   - ingredient: "113g butter, softened "
   - ingredient: "½ cup packed brown sugar "
