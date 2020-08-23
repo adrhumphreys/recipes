@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: ""
+image: /images/minestrone-soup.svg
 ingredients:
   - ingredient: "Splash of oil "
   - ingredient: "2 stalks celery, chopped "
