@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: ""
+image: /images/lemon-lentil-soup.svg
 ingredients:
   - ingredient: "1 tablespoon olive oil "
   - ingredient: "1 medium white onion, peeled and diced "
