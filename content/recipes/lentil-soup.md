@@ -5,7 +5,7 @@ servings: 4-6
 tags:
   - Soup
   - Mains
-image: ""
+image: /images/lentil-soup.svg
 ingredients:
   - ingredient: "Splash of oil "
   - ingredient: "1 large carrot, peeled and chopped "
