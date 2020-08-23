@@ -4,7 +4,7 @@ slug: crispy-tofu
 servings: 2-3
 tags:
   - Parts
-image: ""
+image: /images/tofu.svg
 ingredients:
   - ingredient: 300g block of firm tofu
   - ingredient: 1 scant tablespoon oil
