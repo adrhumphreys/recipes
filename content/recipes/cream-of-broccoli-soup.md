@@ -3,7 +3,7 @@ title: cream of broccoli soup
 slug: cream-of-broccoli-soup
 servings: 4-6
 tags:
-  - soup
+  - Soup
 ingredients:
   - ingredient: Splash of oil
   - ingredient: 1/2 a leek
